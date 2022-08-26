@@ -1,0 +1,61 @@
+.informacao {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: black;
+    align-items: center;
+    background-color: grey;
+    width: auto;
+    height: 300px;
+
+
+
+}
+
+.msg {
+
+    position: absolute;
+    margin: 80px;
+    text-align: center;
+}
+
+.bolhas {
+    position: absolute;
+    width: 99%;
+    height: 300px;
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+    .informacao {
+
+
+        width: auto;
+        height: 500px;
+        margin-top: 800px;
+
+
+    }
+
+    .botao {
+
+        width: 100%;
+
+
+    }
+
+    .bolhas {
+        position: absolute;
+        width: 96%;
+        height: 500px;
+
+    }
+
+
+
+
+}

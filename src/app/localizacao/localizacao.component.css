@@ -1,0 +1,125 @@
+.localizacao {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 1000px;
+
+
+}
+
+.titulo {
+
+
+    margin-top: 100px;
+    color: blue;
+
+}
+
+.endereco {
+
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    font-size: 20px;
+    width: 450px;
+    height: 200px;
+    margin-left: 600px;
+
+}
+
+.lavanderia {
+
+
+    width: 500px;
+    height: 350px;
+    margin-top: -236px;
+    margin-right: 500px;
+
+
+
+}
+
+.botao {
+
+
+    background-color: green;
+    width: 400px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 510px;
+    margin-top: -50px;
+
+
+
+}
+
+.mapa-conteudo {
+
+    margin: 20px;
+    width: 1000px;
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .localizacao {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 520px;
+
+    }
+
+    .lavanderia {
+
+        position: absolute;
+        width: 90%;
+        margin-top: 160px;
+        margin-right: 550px;
+
+    }
+
+    .endereco {
+
+        
+        width: auto;
+        height: 100px;   
+        margin-right: 750px;
+        margin-top: 400px;
+        font-size: 15px;
+
+
+
+    }
+
+    .mapa-conteudo {
+
+
+        width: 100%;
+        margin-top: 50px;
+
+
+    }
+
+    .botao {
+
+        width: 80%;
+        margin-right: 530px;
+        margin-top: 200px;
+
+
+    }
+
+
+
+
+
+}
